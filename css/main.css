@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.navbar-brand img {
+  width: 25px;
+}
+
+.article-thumbnail img, .article-illustration img {
+  height: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+footer {
+    padding: 2rem 0;
+}
+
+.bg-light{
+  background-color:black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:rgba(230, 230, 230, 0.7);
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+  color:white;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: white;
+}
+.navbar-light .navbar-brand{
+  color:white;
+}
